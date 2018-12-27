@@ -1,0 +1,29 @@
+2018-12-27 23:20:31.428  INFO 6908 --- [main] cn.edu.jxau.banyue.App                   : Starting App on DESKTOP-VSTJMP8 with PID 6908 (C:\banyueyunxuefen\target\classes started by LS in C:\banyueyunxuefen)
+2018-12-27 23:20:31.435  INFO 6908 --- [main] cn.edu.jxau.banyue.App                   : No active profile set, falling back to default profiles: default
+2018-12-27 23:20:31.665  INFO 6908 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@28e8dde3: startup date [Thu Dec 27 23:20:31 CST 2018]; root of context hierarchy
+2018-12-27 23:20:32.041  WARN 6908 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[cn.edu.jxau.banyue.common.mapper, cn.edu.jxau.banyue.sign.mapper]' package. Please check your configuration.
+2018-12-27 23:20:32.139  WARN 6908 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[cn.edu.jxau.banyue]' package. Please check your configuration.
+2018-12-27 23:20:32.700  INFO 6908 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2018-12-27 23:20:32.716  INFO 6908 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2018-12-27 23:20:32.746  WARN 6908 --- [main] io.undertow.websockets.jsr               : UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2018-12-27 23:20:32.747  WARN 6908 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2018-12-27 23:20:32.773  INFO 6908 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2018-12-27 23:20:32.773  INFO 6908 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1109 ms
+2018-12-27 23:20:32.860  INFO 6908 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-12-27 23:20:32.864  INFO 6908 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-27 23:20:32.865  INFO 6908 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-27 23:20:32.865  INFO 6908 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-27 23:20:32.865  INFO 6908 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-27 23:20:33.105  INFO 6908 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@28e8dde3: startup date [Thu Dec 27 23:20:31 CST 2018]; root of context hierarchy
+2018-12-27 23:20:33.141  INFO 6908 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-27 23:20:33.142  INFO 6908 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-27 23:20:33.163  INFO 6908 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-27 23:20:33.163  INFO 6908 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-27 23:20:33.190  INFO 6908 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-27 23:20:33.223  WARN 6908 --- [main] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2018-12-27 23:20:33.229  WARN 6908 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2018-12-27 23:20:33.819  INFO 6908 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-12-27 23:20:33.820  INFO 6908 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-12-27 23:20:33.823  INFO 6908 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-12-27 23:20:33.863  INFO 6908 --- [main] b.c.e.u.UndertowEmbeddedServletContainer : Undertow started on port(s) 80 (http)
+2018-12-27 23:20:33.868  INFO 6908 --- [main] cn.edu.jxau.banyue.App                   : Started App in 2.93 seconds (JVM running for 5.088)
